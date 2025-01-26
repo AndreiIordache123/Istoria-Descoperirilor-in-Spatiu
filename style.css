@@ -1,0 +1,35 @@
+#planet-info {
+    position: absolute;
+    right: 10px;
+    left:10px;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    border-radius: 8px;
+    display: none;
+    z-index: 1000; /* Ensure it's above other elements */
+    font-family: Arial, sans-serif;
+  }
+  
+ body {
+    background-color: #000000;
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+
+
+.navbar-content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: black; /* Black background for the navbar */
+    padding: 210px;
+
+}
+
+.navbar-content span {
+    font-size: 120px; /* Slightly increased font size */
+    color: black; /* White text for better contrast */
+    font-weight: bold;
+    cursor: pointer;
+    background-color: black;
+}
